@@ -65,7 +65,7 @@ public class AndroidATCView extends View {
             canvas.drawRect(0, 0, this.getMeasuredWidth(), this.getMeasuredHeight(), mSquarePaint);
             mSquarePaint.setColor(mLabelCol);
             mSquarePaint.setTextAlign(Paint.Align.CENTER);
-            mSquarePaint.setTextSize(50);
+            mSquarePaint.setTextSize(10);
             canvas.drawText(mSquareText, this.getMeasuredWidth() / 2, this.getMeasuredHeight() / 2, mSquarePaint);
         }
     }
